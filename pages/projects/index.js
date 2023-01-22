@@ -15,7 +15,7 @@ export default function projectsPage() {
             </a>
             <hr />
             <p className={style.description}>
-              A fake e-store that shows clothing items and allows user to add
+              A mock-up e-store that shows clothing items and allows user to add
               them to a cart. Items stored on fake REST api, json-server.
             </p>
             <hr />

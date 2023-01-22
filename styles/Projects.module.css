@@ -1,0 +1,101 @@
+
+.projectContainer {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projectItem {
+  width: 35%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: var(--dark-blue-accent);
+  color: var(--text-secondary);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.description {
+    flex-grow: 2;
+}
+
+.projectItem hr {
+    width: 90%;
+}
+
+.projectItem a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: bold;
+}
+
+.projectItem a:hover {
+    text-decoration: underline;
+}
+
+.projectItem p {
+    margin: 0;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.projectItem:hover {
+    border: 2px solid var(--text-primary);
+}
+
+.githubRepos {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.githubRepos:hover {
+    text-decoration: underline;
+}
+
+.react, .java, .c, .javascript {
+    border-radius: 1rem;
+    padding: 0.4rem 1rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.react {
+  background-color: #7cc5d9;
+}
+
+.java {
+  background-color: #f89820;
+}
+
+.c {
+  color: var(--text-primary);
+  background-color: #276DC2;
+}
+
+.javascript {
+  background-color:  #F0DB4F;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .projectItem {
+    gap: 0.5rem;
+  }
+
+}

@@ -50,7 +50,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="navbarItem">
-          <a href="/Justin_Ang_CV.pdf" className="navLink" target="_blank">
+          <a
+            href="/Justin_Ang_Resume_2023.pdf"
+            className="navLink"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faFile} className="navLinkIcons" size="xl" />
             <span className="linkText">Resume</span>
           </a>

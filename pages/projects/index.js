@@ -22,49 +22,44 @@ export default function projectsPage() {
             <span className={style.react}>React</span>
           </li>
           <li className={style.projectItem}>
-            <a
-              href="https://github.com/Jang970/Java-Twitter-Followers-As-Graph"
-              target="_blank"
-            >
-              <h3>Twitter Followers</h3>
+            <a href="https://github.com/Jang970/chat-app" target="_blank">
+              <h3>Chat App</h3>
             </a>
             <hr />
             <p className={style.description}>
-              Displayed the theory of Twitter followers with the use of common
-              data structures.
+              A simple messaging application created with the help of Next.js
+              and Google Firebase.
+            </p>
+            <hr />
+            <span className={style.react}>React</span>
+          </li>
+          <li className={style.projectItem}>
+            <a
+              href="https://github.com/Jang970/java-quick-draw"
+              target="_blank"
+            >
+              <h3>Quick, Draw!</h3>
+            </a>
+            <hr />
+            <p className={style.description}>
+              An educational drawing game inspired by Google's Quick, Draw!
             </p>
             <hr />
             <span className={style.java}>Java</span>
           </li>
           <li className={style.projectItem}>
             <a
-              href="https://github.com/Jang970/C-Project-Container-Yard"
+              href="https://github.com/Jang970/portfolio-website"
               target="_blank"
             >
-              <h3>Container Yard</h3>
+              <h3>My Portfolio</h3>
             </a>
             <hr />
             <p className={style.description}>
-              This is a game where the player must get the container/s from the
-              entry to the exit.
+              Website version of my resume. Allowed me to practice with NextJS
             </p>
             <hr />
-            <span className={style.c}>C</span>
-          </li>
-          <li className={style.projectItem}>
-            <a
-              href="https://github.com/Jang970/JavaScript-To-Do-List"
-              target="_blank"
-            >
-              <h3>To Do List</h3>
-            </a>
-            <hr />
-            <p className={style.description}>
-              Simple to do list website where a user can add, edit & delete
-              tasks.
-            </p>
-            <hr />
-            <span className={style.javascript}>Javascript</span>
+            <span className={style.react}>React</span>
           </li>
         </ul>
         <a

@@ -51,7 +51,7 @@ export default function Navbar() {
         </li>
         <li className="navbarItem">
           <a
-            href="/Justin_Ang_Resume_2023.pdf"
+            href="/Justin_ang_Resume_New.pdf"
             className="navLink"
             target="_blank"
           >
